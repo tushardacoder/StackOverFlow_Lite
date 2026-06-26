@@ -850,8 +850,8 @@ transfer-encoding: chunked
 
 
 
-Database Migration
-Add Migration
+###Database Migration
+##Add Migration
 
 ```bash
 dotnet ef migrations add InitTeamModule --project Stackoverflow.Infrastructure --startup-project Stackoverflow.Host --context Stackoverflow.Infrastructure.Data.ApplicationDbContext --output-dir Data/Migrations
