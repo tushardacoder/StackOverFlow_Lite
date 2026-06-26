@@ -28,6 +28,9 @@ Authenticated users can:
 - View question details
 - Filter questions by tag
 - Track question views using Redis
+- Create tags
+- Assign tags to questions
+- Filter questions by tag
 
 ### Rules
 
@@ -109,15 +112,9 @@ Automatic reputation updates based on community actions.
 
 ---
 
-## Tags
 
-- Create tags
-- Assign tags to questions
-- Filter questions by tag
 
-### Rules
 
-- Tag names must be unique
 
 ---
 
@@ -351,11 +348,7 @@ GET /api/userprofile
 ## Add Migration
 
 ```bash
-dotnet ef migrations add InitTeamModule \
---project Stackoverflow.Infrastructure \
---startup-project Stackoverflow.Host \
---context Stackoverflow.Infrastructure.Data.ApplicationDbContext \
---output-dir Data/Migrations
+dotnet ef migrations add InitTeamModule --project Stackoverflow.Infrastructure --startup-project Stackoverflow.Host --context Stackoverflow.Infrastructure.Data.ApplicationDbContext --output-dir Data/Migrations
 ```
 
 ---
