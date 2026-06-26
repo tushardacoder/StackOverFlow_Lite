@@ -530,18 +530,424 @@ POST /api/auth/login
 # Questions Endpoints
 
 ```http
-POST   /api/questions
-GET    /api/questions
-PUT    /api/questions
-GET    /api/questions/{id}
-DELETE /api/questions/{id}
+# Questions API Documentation
 
-GET    /api/questions/tag/{tagName}
-GET    /api/questions/my
+## Base URL
 
-GET    /api/questions/{questionId}/views
+```http
+http://localhost:8080/api/questions
+```
 
-PUT    /api/questions/accept-answer
+---
+
+# Endpoints
+
+## Create Question
+
+### `POST /api/questions`
+
+Create a new question.
+
+### Authorization
+
+Bearer Token Required
+
+### Request Body
+
+```json
+{
+  "title": "string12",
+  "description": "string123566",
+  "tagName": "string"
+}
+```
+
+### cURL Request
+
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/api/questions' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "title": "string12",
+  "description": "string123566",
+  "tagName": "string"
+}'
+```
+
+### Success Response
+
+```json
+"3393e3d9-e43a-4230-a542-92d3ba9b9694"
+```
+
+---
+
+# Get All Questions
+
+## `GET /api/questions`
+
+Retrieve all questions.
+
+### Authorization
+
+Bearer Token Required
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/questions' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+[
+  {
+    "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44",
+    "title": "string",
+    "description": "string",
+    "tagName": "string",
+    "acceptedAnswer": false,
+    "createdAt": "2026-06-25T09:43:52.410205Z"
+  }
+]
+```
+
+---
+
+# Update Question
+
+## `PUT /api/questions`
+
+Update an existing question.
+
+### Authorization
+
+Bearer Token Required
+
+### Request Body
+
+```json
+{
+  "questionId": "3393e3d9-e43a-4230-a542-92d3ba9b9694",
+  "title": "string12",
+  "description": "string12",
+  "tagName": "string"
+}
+```
+
+### cURL Request
+
+```bash
+curl -X 'PUT' \
+  'http://localhost:8080/api/questions' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "questionId": "3393e3d9-e43a-4230-a542-92d3ba9b9694",
+  "title": "string12",
+  "description": "string12",
+  "tagName": "string"
+}'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Question updated successfully."
+}
+```
+
+---
+
+# Get Question By ID
+
+## `GET /api/questions/{id}`
+
+Retrieve a single question by ID.
+
+### Path Parameter
+
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| id        | UUID | Question ID |
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/questions/3393e3d9-e43a-4230-a542-92d3ba9b9694' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+{
+  "questionId": "3393e3d9-e43a-4230-a542-92d3ba9b9694",
+  "title": "string12",
+  "description": "string12",
+  "tagName": "string",
+  "acceptedAnswer": false,
+  "createdAt": "2026-06-26T12:30:24.323177Z"
+}
+```
+
+---
+
+# Get Questions By Tag
+
+## `GET /api/questions/tag/{tagName}`
+
+Retrieve questions filtered by tag name.
+
+### Path Parameter
+
+| Parameter | Type   | Description |
+| --------- | ------ | ----------- |
+| tagName   | string | Tag name    |
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/questions/tag/string' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+[
+  {
+    "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44",
+    "title": "string",
+    "description": "string",
+    "tagName": "string",
+    "acceptedAnswer": false,
+    "createdAt": "2026-06-25T09:43:52.410205Z"
+  }
+]
+```
+
+---
+
+# Get My Questions
+
+## `GET /api/questions/my`
+
+Retrieve all questions created by the authenticated user.
+
+### Authorization
+
+Bearer Token Required
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/questions/my' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+[
+  {
+    "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44",
+    "title": "string",
+    "description": "string",
+    "tagName": "string",
+    "acceptedAnswer": false,
+    "createdAt": "2026-06-25T09:43:52.410205Z"
+  }
+]
+```
+
+---
+
+# Delete Question
+
+## `DELETE /api/questions/{id}`
+
+Delete a question by ID.
+
+### Path Parameter
+
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+| id        | UUID | Question ID |
+
+### Authorization
+
+Bearer Token Required
+
+### cURL Request
+
+```bash
+curl -X 'DELETE' \
+  'http://localhost:8080/api/questions/3393e3d9-e43a-4230-a542-92d3ba9b9694' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Question deleted successfully."
+}
+```
+
+---
+
+# Accept Answer
+
+## `PUT /api/questions/accept-answer`
+
+Accept an answer for a question.
+
+### Authorization
+
+Bearer Token Required
+
+### Request Body
+
+```json
+{
+  "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e"
+}
+```
+
+### cURL Request
+
+```bash
+curl -X 'PUT' \
+  'http://localhost:8080/api/questions/accept-answer' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e"
+}'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Answer accepted successfully."
+}
+```
+
+---
+
+# Get Accepted Answer & Other Answers
+
+## `GET /api/questions/question/{questionId}`
+
+Retrieve the accepted answer and other answers for a question.
+
+### Path Parameter
+
+| Parameter  | Type | Description |
+| ---------- | ---- | ----------- |
+| questionId | UUID | Question ID |
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/questions/question/a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Accepted answer found",
+  "acceptedAnswer": {
+    "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e",
+    "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44",
+    "content": "ansfrom041",
+    "isAccepted": true,
+    "createdAt": "2026-06-26T12:41:54.925825Z"
+  },
+  "otherAnswers": []
+}
+```
+
+---
+
+# Get Question Views
+
+## `GET /api/questions/{questionId}/views`
+
+Retrieve total view count for a question.
+
+### Path Parameter
+
+| Parameter  | Type | Description |
+| ---------- | ---- | ----------- |
+| questionId | UUID | Question ID |
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/questions/a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44/views' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+2
+```
+
+---
+
+# Authentication Rules
+
+* All protected endpoints require a valid JWT Bearer Token.
+* Users must register and log in before accessing protected APIs.
+* Tokens must be included in the `Authorization` header.
+
+Example:
+
+```http
+Authorization: Bearer YOUR_TOKEN
+```
+
+---
+
+# Response Status Codes
+
+| Status Code | Description                    |
+| ----------- | ------------------------------ |
+| 200         | Request completed successfully |
+| 400         | Bad request                    |
+| 401         | Unauthorized                   |
+| 404         | Resource not found             |
+| 500         | Internal server error          |
+
+---
+
 ```
 
 ---
@@ -604,11 +1010,7 @@ GET /api/userprofile
 ## Add Migration
 
 ```bash
-dotnet ef migrations add InitTeamModule \
---project Stackoverflow.Infrastructure \
---startup-project Stackoverflow.Host \
---context Stackoverflow.Infrastructure.Data.ApplicationDbContext \
---output-dir Data/Migrations
+dotnet ef migrations add InitTeamModule --project Stackoverflow.Infrastructure --startup-project Stackoverflow.Host --context Stackoverflow.Infrastructure.Data.ApplicationDbContext --output-dir Data/Migrations
 ```
 
 ---
