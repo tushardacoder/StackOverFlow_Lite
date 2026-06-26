@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dD4DkAZ/y8c=",
+  "success": true,
+  "projectFilePath": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Stackoverflow.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ISLAM\\.nuget\\packages\\erroror\\2.1.1\\erroror.2.1.1.nupkg.sha512",
+    "C:\\Users\\ISLAM\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\ISLAM\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\ISLAM\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

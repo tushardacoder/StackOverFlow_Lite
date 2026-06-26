@@ -1,0 +1,1205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\auth\\command\\userregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\auth\\command\\userregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\iidentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|E:\\StackOverflow_Lite\\Stackoverflow_lite\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\identity\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\identity\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\auth\\command\\userregistercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\auth\\command\\userregistercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\auth\\command\\userlogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\auth\\command\\userlogincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\auth\\command\\userregistercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\auth\\command\\userregistercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\auth\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\auth\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\userprofile\\query\\getuserprofilequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\userprofile\\query\\getuserprofilequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\userprofile\\query\\getuserprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\userprofile\\query\\getuserprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\repositories\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\repositories\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\external\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\external\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\external\\dbcontextextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\external\\dbcontextextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\irediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\iviewtrackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\iviewtrackingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\ivoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\ivoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\repositories\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\repositories\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\repositories\\answerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\repositories\\answerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getquestionbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getquestionbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\updatequestioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\updatequestioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\updatequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\updatequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getquestionbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getquestionbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\deletequestioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\deletequestioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|solutionrelative:stackoverflow.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.domain\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|solutionrelative:stackoverflow.domain\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\command\\deleteanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\command\\deleteanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|solutionrelative:stackoverflow.domain\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\contracts\\ianswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\contracts\\ianswerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.infrastructure\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD21F815-CCAB-4AD7-A425-1F63B87B68F0}|Stackoverflow.Infrastructure\\Stackoverflow.Infrastructure.csproj|solutionrelative:stackoverflow.infrastructure\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\command\\deleteanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\command\\deleteanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\votes\\command\\downvoteanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\votes\\command\\downvoteanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\votes\\command\\downvoteanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\votes\\command\\downvoteanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getmyquestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getmyquestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getavailablequestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getavailablequestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getquestionsbytagqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getquestionsbytagqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getallquestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getallquestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getmyquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getmyquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getavailablequestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getavailablequestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\controllers\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\controllers\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getquestionsbytagquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getquestionsbytagquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\query\\getallquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\query\\getallquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\deletequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\deletequestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\createquestioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\createquestioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\acceptanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\acceptanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\questionscrud\\command\\acceptanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\questionscrud\\command\\acceptanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\controllers\\votescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\controllers\\votescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\query\\getmyanswersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\query\\getmyanswersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\query\\getmyanswersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\query\\getmyanswersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\query\\getavailablequestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\query\\getavailablequestionsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\query\\getavailablequestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\query\\getavailablequestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\query\\getanswersbyquestionidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\query\\getanswersbyquestionidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\query\\getanswersbyquestionidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\query\\getanswersbyquestionidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\command\\updateanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\command\\updateanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\command\\updateanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\command\\updateanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\command\\createanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\command\\createanswercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\features\\answercrud\\command\\createanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\features\\answercrud\\command\\createanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\dtos\\answerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\dtos\\answerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\dtos\\answerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\dtos\\answerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\dtos\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.host\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABA6E2-9ED7-DFEC-0422-E1E8018F7E2B}|Stackoverflow.Host\\Stackoverflow.Host.csproj|solutionrelative:stackoverflow.host\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{785EB961-778F-4A38-9813-2E0BB9124A9B}|Stackoverflow.Application\\Stackoverflow.Application.csproj|solutionrelative:stackoverflow.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|e:\\stackoverflow_lite\\stackoverflow_lite\\stackoverflow.domain\\stackoverflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E974B46-2231-48DA-ABC7-1D23B2CB798D}|Stackoverflow.Domain\\Stackoverflow.Domain.csproj|solutionrelative:stackoverflow.domain\\stackoverflow.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|E:\\StackOverflow_Lite\\Stackoverflow_lite\\Dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Dockerfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRegisterCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwEQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:48:55.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Stackoverflow.Host\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:49:34.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Identity\\IdentityService.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\Identity\\IdentityService.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Identity\\IdentityService.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\Identity\\IdentityService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:11:06.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-06-25T08:49:33.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\appsettings.json",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\appsettings.json",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\appsettings.json",
+              "RelativeToolTip": "Stackoverflow.Host\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-21T17:23:21.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IIdentityService.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IIdentityService.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IIdentityService.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IIdentityService.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IIdentityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:09:59.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegisterCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:51:25.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserLoginCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:48:52.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRegisterCommandValidator.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandValidator.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandValidator.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandValidator.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\Auth\\Command\\UserRegisterCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:48:57.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IUserProfileRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IUserProfileRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IUserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T14:02:43.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IUserRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IUserRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T14:02:45.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserLoginCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\Auth\\Command\\UserLoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:48:51.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetUserProfileQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:51:53.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetUserProfileQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\UserProfile\\Query\\GetUserProfileQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T07:51:51.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\Repositories\\UserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:08:48.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DependencyInjections.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\External\\DependencyInjections.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\External\\DependencyInjections.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\External\\DependencyInjections.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\External\\DependencyInjections.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T06:26:57.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Dockerfile.txt",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Dockerfile.txt",
+              "RelativeDocumentMoniker": "Dockerfile.txt",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Dockerfile.txt",
+              "RelativeToolTip": "Dockerfile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-25T06:56:15.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Program.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\Program.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Program.cs",
+              "RelativeToolTip": "Stackoverflow.Host\\Program.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAQwLQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:00:52.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T17:23:21.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\Controllers\\UserProfileController.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "Stackoverflow.Host\\Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:49:57.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DbContextExtension.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\External\\DbContextExtension.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\External\\DbContextExtension.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\External\\DbContextExtension.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\External\\DbContextExtension.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T06:26:54.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T06:07:44.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AnswerRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\AnswerRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\Repositories\\AnswerRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\AnswerRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\Repositories\\AnswerRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:53:21.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IRedisCacheService.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IRedisCacheService.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IRedisCacheService.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IRedisCacheService.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IRedisCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T05:15:58.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IVoteRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IVoteRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IVoteRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IVoteRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IVoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:54:37.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IViewTrackingService.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IViewTrackingService.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IViewTrackingService.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IViewTrackingService.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IViewTrackingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T05:17:22.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "QuestionRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:44:34.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetQuestionByIdQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:20:28.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateQuestionCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommandHandler.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:41:18.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateQuestionCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\UpdateQuestionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:40:35.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetQuestionByIdQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:20:26.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\Controllers\\QuestionsController.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\QuestionsController.cs",
+              "RelativeToolTip": "Stackoverflow.Host\\Controllers\\QuestionsController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAIwBYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:49:39.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IQuestionRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IQuestionRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IQuestionRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:44:14.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DeleteQuestionCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommandHandler.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwDQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:18:43.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Question.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Domain\\Entities\\Question.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Entities\\Question.cs",
+              "RelativeToolTip": "Stackoverflow.Domain\\Entities\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:21:20.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IAnswerRepository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IAnswerRepository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Contracts\\IAnswerRepository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Contracts\\IAnswerRepository.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Contracts\\IAnswerRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:54:43.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Entities\\Vote.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Domain\\Entities\\Vote.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Entities\\Vote.cs",
+              "RelativeToolTip": "Stackoverflow.Domain\\Entities\\Vote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:48:08.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DeleteAnswerCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:06:27.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Entities\\Answer.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Domain\\Entities\\Answer.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Entities\\Answer.cs",
+              "RelativeToolTip": "Stackoverflow.Domain\\Entities\\Answer.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T05:21:29.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repository.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Infrastructure\\Repository.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Infrastructure\\Repository.cs",
+              "RelativeToolTip": "Stackoverflow.Infrastructure\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:55:11.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DownVoteAnswerCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommandHandler.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:47:17.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeleteAnswerCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\DeleteAnswerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T04:05:48.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DownVoteAnswerCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\Votes\\Command\\DownVoteAnswerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T03:47:14.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GetQuestionsByTagQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:26:50.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetAvailableQuestionsQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:20:06.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetMyQuestionsQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQueryHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:33:33.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GetAllQuestionsQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:19:22.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetMyQuestionsQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetMyQuestionsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:32:20.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetAvailableQuestionsQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:20:04.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AnswersController.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\AnswersController.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\Controllers\\AnswersController.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\AnswersController.cs",
+              "RelativeToolTip": "Stackoverflow.Host\\Controllers\\AnswersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T11:53:06.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "GetQuestionsByTagQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetQuestionsByTagQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T09:23:09.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GetAllQuestionsQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Query\\GetAllQuestionsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:29:27.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DeleteQuestionCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\DeleteQuestionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:18:40.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateQuestionCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommandHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:17:27.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateQuestionCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\CreateQuestionCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:12:14.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "VotesController.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\VotesController.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\Controllers\\VotesController.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\Controllers\\VotesController.cs",
+              "RelativeToolTip": "Stackoverflow.Host\\Controllers\\VotesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:59:55.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AcceptAnswerCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T06:25:23.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AcceptAnswerCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\QuestionsCrud\\Command\\AcceptAnswerCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwIsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T13:09:52.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "GetAvailableQuestionsQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:22:20.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GetMyAnswersQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQueryHandler.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwC4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:40:34.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "GetMyAnswersQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetMyAnswersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:48:01.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GetAvailableQuestionsQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAvailableQuestionsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:22:17.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "GetAnswersByQuestionIdQueryHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQueryHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQueryHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQueryHandler.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAzwCEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:22:04.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GetAnswersByQuestionIdQuery.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQuery.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQuery.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQuery.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Query\\GetAnswersByQuestionIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:22:02.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CreateAnswerCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:06:24.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UpdateAnswerCommand.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommand.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommand.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommand.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:37:50.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UpdateAnswerCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\UpdateAnswerCommandHandler.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwEAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:38:23.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CreateAnswerCommandHandler.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommandHandler.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommandHandler.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommandHandler.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\Features\\AnswerCrud\\Command\\CreateAnswerCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:06:55.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "AnswerResponseDto.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DTOS\\AnswerResponseDto.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\DTOS\\AnswerResponseDto.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DTOS\\AnswerResponseDto.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\DTOS\\AnswerResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T06:50:03.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AnswerDto.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DTOS\\AnswerDto.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\DTOS\\AnswerDto.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DTOS\\AnswerDto.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\DTOS\\AnswerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T10:05:56.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DTOS\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\DTOS\\UserProfileDto.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DTOS\\UserProfileDto.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\DTOS\\UserProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T04:00:20.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Application\\DependencyInjection.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Stackoverflow.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T17:47:20.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Stackoverflow.Domain.csproj",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Stackoverflow.Domain.csproj",
+              "RelativeDocumentMoniker": "Stackoverflow.Domain\\Stackoverflow.Domain.csproj",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Domain\\Stackoverflow.Domain.csproj",
+              "RelativeToolTip": "Stackoverflow.Domain\\Stackoverflow.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-21T17:47:19.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Stackoverflow.Host\\DependencyInjection.cs",
+              "ToolTip": "E:\\StackOverflow_Lite\\Stackoverflow_lite\\Stackoverflow.Host\\DependencyInjection.cs",
+              "RelativeToolTip": "Stackoverflow.Host\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T17:23:21.515Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

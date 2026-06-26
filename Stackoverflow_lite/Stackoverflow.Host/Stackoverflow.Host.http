@@ -1,0 +1,6 @@
+@Stackoverflow.Host_HostAddress = http://localhost:5240
+
+GET {{Stackoverflow.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

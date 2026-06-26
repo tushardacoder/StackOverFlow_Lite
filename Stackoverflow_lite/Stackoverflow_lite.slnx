@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+    <File Path="Dockerfile.txt" />
+  </Folder>
+  <Project Path="Stackoverflow.Application/Stackoverflow.Application.csproj" Id="785eb961-778f-4a38-9813-2e0bb9124a9b" />
+  <Project Path="Stackoverflow.Domain/Stackoverflow.Domain.csproj" Id="0e974b46-2231-48da-abc7-1d23b2cb798d" />
+  <Project Path="Stackoverflow.Host/Stackoverflow.Host.csproj" />
+  <Project Path="Stackoverflow.Infrastructure/Stackoverflow.Infrastructure.csproj" Id="dd21f815-ccab-4ad7-a425-1f63b87b68f0" />
+</Solution>

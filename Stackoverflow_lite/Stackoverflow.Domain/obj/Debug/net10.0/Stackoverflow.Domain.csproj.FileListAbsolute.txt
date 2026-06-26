@@ -1,0 +1,13 @@
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\bin\Debug\net10.0\Stackoverflow.Domain.deps.json
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\bin\Debug\net10.0\Stackoverflow.Domain.dll
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\bin\Debug\net10.0\Stackoverflow.Domain.pdb
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.csproj.AssemblyReference.cache
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.AssemblyInfoInputs.cache
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.AssemblyInfo.cs
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.csproj.CoreCompileInputs.cache
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.sourcelink.json
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.dll
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\refint\Stackoverflow.Domain.dll
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\Stackoverflow.Domain.pdb
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Domain\obj\Debug\net10.0\ref\Stackoverflow.Domain.dll

@@ -1,0 +1,392 @@
+[
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AnswersController",
+    "Method": "Create",
+    "RelativePath": "api/answers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.AnswerCrud.Command.CreateAnswerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AnswersController",
+    "Method": "Update",
+    "RelativePath": "api/answers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.AnswerCrud.Command.UpdateAnswerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AnswersController",
+    "Method": "Delete",
+    "RelativePath": "api/answers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AnswersController",
+    "Method": "AcceptAnswer",
+    "RelativePath": "api/answers/accept-answer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.QuestionsCrud.Command.AcceptAnswerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AnswersController",
+    "Method": "GetAvailableQuestions",
+    "RelativePath": "api/answers/available-for-answer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AnswersController",
+    "Method": "GetMyAnswers",
+    "RelativePath": "api/answers/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AnswersController",
+    "Method": "GetByQuestionId",
+    "RelativePath": "api/answers/question/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.Auth.Command.UserLoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.Auth.Command.UserRegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "Create",
+    "RelativePath": "api/questions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.QuestionsCrud.Command.CreateQuestionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "Update",
+    "RelativePath": "api/questions",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.QuestionsCrud.Command.UpdateQuestionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "Get",
+    "RelativePath": "api/questions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "Delete",
+    "RelativePath": "api/questions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "GetViews",
+    "RelativePath": "api/questions/{questionId}/views",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "AcceptAnswer",
+    "RelativePath": "api/questions/accept-answer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.QuestionsCrud.Command.AcceptAnswerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "GetMyQuestions",
+    "RelativePath": "api/questions/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "GetByQuestionId",
+    "RelativePath": "api/questions/question/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.QuestionsController",
+    "Method": "GetByTag",
+    "RelativePath": "api/questions/tag/{tagName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tagName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.UserProfileController",
+    "Method": "Get",
+    "RelativePath": "api/userprofile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.VotesController",
+    "Method": "DownVoteAnswer",
+    "RelativePath": "api/votes/answer/downvote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.Votes.Command.DownVoteAnswerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.VotesController",
+    "Method": "UpVoteAnswer",
+    "RelativePath": "api/votes/answer/upvote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.Votes.Command.UpVoteAnswerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.VotesController",
+    "Method": "GetAvailableQuestions",
+    "RelativePath": "api/votes/available-answer-for-vote",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.VotesController",
+    "Method": "GetMyQuestions",
+    "RelativePath": "api/votes/myquestion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.VotesController",
+    "Method": "GetByQuestionId",
+    "RelativePath": "api/votes/question/{questionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.VotesController",
+    "Method": "DownVoteQuestion",
+    "RelativePath": "api/votes/question/downvote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.Votes.Command.DownVoteQuestionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stackoverflow.Host.Controllers.VotesController",
+    "Method": "UpVoteQuestion",
+    "RelativePath": "api/votes/question/upvote",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Stackoverflow.Application.Features.Votes.Command.UpVoteQuestionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

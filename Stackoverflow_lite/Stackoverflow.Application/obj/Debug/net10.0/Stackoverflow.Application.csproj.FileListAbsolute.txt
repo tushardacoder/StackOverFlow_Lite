@@ -1,0 +1,16 @@
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\bin\Debug\net10.0\Stackoverflow.Application.deps.json
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\bin\Debug\net10.0\Stackoverflow.Application.dll
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\bin\Debug\net10.0\Stackoverflow.Application.pdb
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\bin\Debug\net10.0\Stackoverflow.Domain.dll
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\bin\Debug\net10.0\Stackoverflow.Domain.pdb
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.csproj.AssemblyReference.cache
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.AssemblyInfoInputs.cache
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.AssemblyInfo.cs
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.csproj.CoreCompileInputs.cache
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.sourcelink.json
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackove.2F488951.Up2Date
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.dll
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\refint\Stackoverflow.Application.dll
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\Stackoverflow.Application.pdb
+E:\StackOverflow_Lite\Stackoverflow_lite\Stackoverflow.Application\obj\Debug\net10.0\ref\Stackoverflow.Application.dll
