@@ -628,7 +628,91 @@ builder.Services.Configure<IdentityOptions>(options =>
 });
 ```
 
+# Login API
+
+## Endpoint
+
+```
 POST /api/auth/login
+```
+
+---
+
+## Request Body
+
+```json id="5njlwm"
+{
+  "email": "tusharbasak041@gmail.com",
+  "password": "Tushar@041"
+}
+```
+
+---
+
+## Example cURL Request
+
+```bash id="flc3ie"
+curl -X POST "https://localhost:5001/api/auth/login" \
+-H "Content-Type: application/json" \
+-d '{
+  "email": "tusharbasak041@gmail.com",
+  "password": "Tushar@041"
+}'
+```
+
+---
+
+## Success Response
+
+```json id="pn9g5z"
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOiJkMzc3ZmIwNi00M2EzLTQyOTUtOWM4ZC05NjI2MjJhYzEzOTAiLCJlbWFpbCI6InR1c2hhcmJhc2FrMDQxQGdtYWlsLmNvbSIsImV4cCI6MTc4MjQ3OTE5N30.DX7v0CvONPtK3dY5rt4JOO_TbXe_oVPPDmq_kqPCftg"
+}
+```
+
+---
+
+## Error Responses
+
+### Invalid Email
+
+```json id="5tz6p4"
+{
+  "message": "User not found"
+}
+```
+
+### Invalid Password
+
+```json id="p91wzl"
+{
+  "message": "Invalid password"
+}
+```
+
+---
+
+# JWT Authentication
+
+After successful login, the API returns a JWT token.
+
+Use this token in the `Authorization` header for protected endpoints.
+
+## Authorization Header Example
+
+```http id="0t6q7d"
+Authorization: Bearer your-jwt-token
+```
+
+---
+
+## Example Protected Request
+
+```bash id="bq98u4"
+curl -X GET "https://localhost:5001/api/questions" \
+-H "Authorization: Bearer your-jwt-token"
+```
+
 ```
 
 ---
