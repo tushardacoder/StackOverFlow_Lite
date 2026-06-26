@@ -529,14 +529,11 @@ POST /api/auth/login
 
 # Questions Endpoints
 
-```http
 # Questions API Documentation
 
 ## Base URL
 
-```http
-http://localhost:8080/api/questions
-```
+`http://localhost:8080/api/questions`
 
 ---
 
@@ -948,20 +945,13 @@ Authorization: Bearer YOUR_TOKEN
 
 ---
 
-```
-
----
-
 # Answers Endpoints
 
-```http
 # Answers API Documentation
 
 ## Base URL
 
-```http
-http://localhost:8080/api/answers
-```
+`http://localhost:8080/api/answers`
 
 ---
 
@@ -1301,18 +1291,12 @@ Authorization: Bearer YOUR_TOKEN
 
 ---
 
-```
-
----
-
 # Votes Endpoints
 # Votes API Documentation
 
 ## Base URL
 
-```http
-http://localhost:8080/api/votes
-```
+`http://localhost:8080/api/votes`
 
 ---
 
@@ -1636,17 +1620,11 @@ Authorization: Bearer YOUR_TOKEN
 
 ---
 
-```
-
----
-
 # User Profile API Documentation
 
 ## Base URL
 
-```http
-http://localhost:8080/api/userprofile
-```
+`http://localhost:8080/api/userprofile`
 
 ---
 
@@ -1713,10 +1691,6 @@ Authorization: Bearer YOUR_TOKEN
 | --------------- | ---- | ---------------------------------- |
 | userId          | UUID | Unique identifier of the user      |
 | reputationScore | int  | Total reputation score of the user |
-
----
-
-```
 
 ---
 
