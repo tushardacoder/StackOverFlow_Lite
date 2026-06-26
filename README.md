@@ -1640,23 +1640,82 @@ Authorization: Bearer YOUR_TOKEN
 
 ---
 
-# User Profile
+# User Profile API Documentation
 
-## Get User Profile API
-
-### Endpoint
+## Base URL
 
 ```http
-GET /api/userprofile
+http://localhost:8080/api/userprofile
+```
+
+---
+
+# Endpoints
+
+## Get User Profile
+
+### `GET /api/userprofile`
+
+Retrieve the authenticated user's profile information.
+
+### Authorization
+
+Bearer Token Required
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/userprofile' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
 ```
 
 ### Success Response
 
 ```json
 {
-  "userId": "d377fb06-43a3-4295-9c8d-962622ac1390",
-  "reputationScore": 5
+  "userId": "9cadb30a-19de-4cda-a528-0c7574d9d0fa",
+  "reputationScore": 23
 }
+```
+
+---
+
+# Authentication Rules
+
+* This endpoint requires a valid JWT Bearer Token.
+* Users must be authenticated to access their profile.
+* Tokens must be included in the `Authorization` header.
+
+Example:
+
+```http
+Authorization: Bearer YOUR_TOKEN
+```
+
+---
+
+# Response Status Codes
+
+| Status Code | Description                    |
+| ----------- | ------------------------------ |
+| 200         | Request completed successfully |
+| 401         | Unauthorized                   |
+| 404         | User profile not found         |
+| 500         | Internal server error          |
+
+---
+
+# Response Fields
+
+| Field           | Type | Description                        |
+| --------------- | ---- | ---------------------------------- |
+| userId          | UUID | Unique identifier of the user      |
+| reputationScore | int  | Total reputation score of the user |
+
+---
+
 ```
 
 ---
