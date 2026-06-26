@@ -817,7 +817,7 @@ curl -X 'DELETE' \
 
 ## `PUT /api/questions/accept-answer`
 
-Accept an answer for a question.
+Accept an answer for a question. Only question owner can accept and answer and change accepted answer as per wish
 
 ### Authorization
 
