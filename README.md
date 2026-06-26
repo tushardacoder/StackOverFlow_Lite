@@ -1521,7 +1521,7 @@ curl -X 'GET' \
 
 ## `POST /api/votes/question/downvote`
 
-Downvote a question.Authenticate user can't vote own answer
+Downvote a question.Authenticate user can't vote own question
 
 ### Authorization
 
@@ -1562,7 +1562,7 @@ curl -X 'POST' \
 
 ## `POST /api/votes/question/upvote`
 
-Upvote a question.Authenticate user can't vote own answer
+Upvote a question.Authenticate user can't vote own question
 
 ### Authorization
 
