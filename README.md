@@ -1306,18 +1306,334 @@ Authorization: Bearer YOUR_TOKEN
 ---
 
 # Votes Endpoints
+# Votes API Documentation
+
+## Base URL
 
 ```http
-POST /api/votes/question/upvote
-POST /api/votes/question/downvote
+http://localhost:8080/api/votes
+```
 
-POST /api/votes/answer/upvote
-POST /api/votes/answer/downvote
+---
 
-GET  /api/votes/question/{questionId}
-GET  /api/votes/myquestion
+# Endpoints
 
-GET  /api/votes/available-answer-for-vote
+# Get My Questions
+
+## `GET /api/votes/myquestion`
+
+Retrieve all questions created by the authenticated user.
+
+### Authorization
+
+Bearer Token Required
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/votes/myquestion' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+[
+  {
+    "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44",
+    "title": "string",
+    "description": "string",
+    "tagName": "string",
+    "acceptedAnswer": false,
+    "createdAt": "2026-06-25T09:43:52.410205Z"
+  }
+]
+```
+
+---
+
+# Get Answers By Question ID
+
+## `GET /api/votes/question/{questionId}`
+
+Retrieve accepted and other answers for a specific question.
+
+### Path Parameter
+
+| Parameter  | Type | Description |
+| ---------- | ---- | ----------- |
+| questionId | UUID | Question ID |
+
+### Authorization
+
+Bearer Token Required
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/votes/question/a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Accepted answer found",
+  "acceptedAnswer": {
+    "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e",
+    "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44",
+    "content": "AnsFrom041",
+    "isAccepted": true,
+    "createdAt": "2026-06-26T12:41:54.925825Z"
+  },
+  "otherAnswers": []
+}
+```
+
+---
+
+# Upvote Answer
+
+## `POST /api/votes/answer/upvote`
+
+Upvote an answer.
+
+### Authorization
+
+Bearer Token Required
+
+### Request Body
+
+```json
+{
+  "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e"
+}
+```
+
+### cURL Request
+
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/api/votes/answer/upvote' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e"
+}'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Answer upvoted successfully."
+}
+```
+
+---
+
+# Downvote Answer
+
+## `POST /api/votes/answer/downvote`
+
+Downvote an answer.
+
+### Authorization
+
+Bearer Token Required
+
+### Request Body
+
+```json
+{
+  "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e"
+}
+```
+
+### cURL Request
+
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/api/votes/answer/downvote' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "answerId": "a44e0f03-2d17-4da9-bf93-ad5d92badf7e"
+}'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Answer downvoted successfully."
+}
+```
+
+---
+
+# Get Questions Available For Vote
+
+## `GET /api/votes/available-answer-for-vote`
+
+Retrieve all questions available for voting.
+
+### Authorization
+
+Bearer Token Required
+
+### cURL Request
+
+```bash
+curl -X 'GET' \
+  'http://localhost:8080/api/votes/available-answer-for-vote' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN'
+```
+
+### Success Response
+
+```json
+[
+  {
+    "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44",
+    "title": "string",
+    "description": "string",
+    "tagName": "string",
+    "acceptedAnswer": false,
+    "createdAt": "2026-06-25T09:43:52.410205Z"
+  }
+]
+```
+
+---
+
+# Downvote Question
+
+## `POST /api/votes/question/downvote`
+
+Downvote a question.
+
+### Authorization
+
+Bearer Token Required
+
+### Request Body
+
+```json
+{
+  "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44"
+}
+```
+
+### cURL Request
+
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/api/votes/question/downvote' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44"
+}'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Question downvoted successfully."
+}
+```
+
+---
+
+# Upvote Question
+
+## `POST /api/votes/question/upvote`
+
+Upvote a question.
+
+### Authorization
+
+Bearer Token Required
+
+### Request Body
+
+```json
+{
+  "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44"
+}
+```
+
+### cURL Request
+
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/api/votes/question/upvote' \
+  -H 'accept: */*' \
+  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "questionId": "a0ad97f3-cdec-4a7d-b1b9-7ecea0fdea44"
+}'
+```
+
+### Success Response
+
+```json
+{
+  "message": "Question upvoted successfully."
+}
+```
+
+---
+
+# Authentication Rules
+
+* All protected endpoints require a valid JWT Bearer Token.
+* Users must register and log in before accessing protected APIs.
+* Tokens must be included in the `Authorization` header.
+
+Example:
+
+```http
+Authorization: Bearer YOUR_TOKEN
+```
+
+---
+
+# Response Status Codes
+
+| Status Code | Description                    |
+| ----------- | ------------------------------ |
+| 200         | Request completed successfully |
+| 400         | Bad request                    |
+| 401         | Unauthorized                   |
+| 404         | Resource not found             |
+| 500         | Internal server error          |
+
+---
+
+# Business Rules
+
+* Users cannot vote on their own questions.
+* Users cannot vote on their own answers.
+* A user can upvote or downvote only once per question.
+* A user can upvote or downvote only once per answer.
+* Users can change their vote type from upvote to downvote and vice versa.
+* Voting requires authentication.
+
+---
+
 ```
 
 ---
